@@ -1,0 +1,326 @@
+.hero .head1{
+margin-top: -370px;
+
+}
+.hero .img1{
+    width: 1473px;
+    margin-top: 0px;
+}
+.nav{
+    margin-top: -690px;
+}
+.hero .hero-content{
+    color: darkred;
+   
+}
+
+.row{
+    height: 750px;
+}
+.row2{
+    margin-top: 550px;
+    height: 750px;
+}
+.row2 .img2 img{
+
+    width: 330px;
+    height: 400px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.packages{
+    display: flex;
+   margin: opx 5px 0px 5px;
+    
+}
+.row6 li{
+    margin-top: 200px;
+    margin-left: -450px;
+    list-style: none;
+}
+.btn{
+    margin-left: 0px;
+}
+.btn1{
+    margin-left: 670px;
+    background-color: blue;
+   padding: 10px;
+   border-radius: 15px;
+    font-weight: 600;
+}
+.fest{
+    margin-top: -315px;
+}
+
+.tours .img3 img{
+
+    width: 330px;
+    height: 400px;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.tours{
+    display: flex;
+   margin: opx 5px 0px 5px;
+    
+}
+
+.features .img4 img{
+
+    width: 280px;
+    height: 300px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+   
+}
+.features{
+    display: flex;
+   
+    margin-left: 110px;
+    
+}
+.features .learn{
+    text-decoration: none;
+    color: violet;
+    margin-left: 125px;
+}
+
+.font{
+    margin-left: 750px;
+    
+}
+
+.customer .img5 img{
+
+    width: 320px;
+    height: 240px;
+   display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 40px;
+   
+}
+.customer .img6 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: -530px;
+    margin-left: 550px;
+}
+
+.customer .img7 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: -600px;
+    margin-left: 1100px;
+}
+.para1{
+    margin-left: 40px;
+}
+.para2{
+    margin-left: 550px;
+    margin-top: -150px;
+}
+.para3{
+    margin-left: 1100px;
+    margin-top: -180px;
+}
+.customer .txt{
+  margin-left: 60px;  
+}
+
+.row6{
+    background-color: plum;
+   
+    height: 380px;
+}
+
+.iconcollection{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon{
+    margin: 70px 25px;
+   /* border: solid;*/
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+}
+.brands{
+    color: black;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+@media (max-width:410px){
+    .hero .img1{
+        width: 400px;
+    }
+
+    .hero .hero-content{
+        color: black;
+        margin-top: -50px;
+        
+       
+    }
+    .hero .head1{
+        
+        margin-top: -120px;
+        font-size: 9px;
+        display: none;
+    }
+
+    .hero .head2{
+        font-size: 9px;
+        display: none;
+    }
+
+    .hero .head3{
+        font-size: 9px;
+        display: none;
+    }
+    .hero .head4{
+        font-size: 9px;
+        display: none;
+    }
+
+    .btn{
+        font-size: 8px;
+        margin-left: 150px;
+      
+    }
+    .nav{
+        margin-top: -210px;
+        color: black;
+        font-size: 10px;
+    }
+    .nav-item a{
+        background-color: aquamarine;
+    }
+  
+ .row2 .main{
+    margin-top: -510px;
+ }
+
+ .packages{
+    display: block;
+   margin: opx 5px 0px 5px;
+    
+}
+.img2 p{
+    text-align: center;
+}
+.btn{
+    margin-left: 150px;
+}
+.btn1{
+    margin-left: 120px;
+}
+
+.row6{margin-top: 0px;}
+.row5{margin-top: -20px;}
+.row4{margin-top: -50px;}
+.row3{margin-top: -20px;}
+.slide{
+    margin-top: 1750px;
+}
+.carousel-inner{
+    margin-top: -1800px;
+}
+ .fest{
+    margin-top: 10px;
+    width: 405px;
+   
+}
+iframe{
+    width: 405px;
+   
+}
+.tours {
+    display: block;
+    margin-left: 15px;
+    
+}
+.tours .img3{
+    margin-bottom: 20px;
+}
+.features{
+    display: block;
+}
+.features .img4{
+    margin-left: -70px;
+}
+
+
+
+   
+
+.customer .img6 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+.customer .img7 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+}
+
+
+.para2{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.para3{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.iconcollection{
+
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row6 li{
+    margin-left: 120px;
+    margin-top: 0px;
+}
+.row6 h2{
+    margin-left: 120px;
+}
+.icon{
+    display: inline;
+    margin-left: 40px;
+    margin-top: 80px;
+    height: 90px;
+}
+
+} 
+ 
+        
