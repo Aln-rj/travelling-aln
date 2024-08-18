@@ -3,7 +3,7 @@ margin-top: -370px;
 
 }
 .hero .img1{
-    width: 1473px;
+    width: 1513px;
     margin-top: 0px;
 }
 .nav{
@@ -50,8 +50,14 @@ margin-top: -370px;
    border-radius: 15px;
     font-weight: 600;
 }
+.btn2{
+    margin-left: 130px;
+}
 .fest{
     margin-top: -315px;
+}
+iframe {
+    margin-left: 100px;
 }
 
 .tours .img3 img{
@@ -144,6 +150,17 @@ margin-top: -370px;
     height: 380px;
 }
 
+.row5 .name1{
+   display: none;
+}
+.row5 .name2{
+    display: none;
+   
+}
+.row5 .name3{
+    display: none;
+    
+}
 .iconcollection{
 
     display: flex;
@@ -211,10 +228,10 @@ margin-top: -370px;
     .nav{
         margin-top: -210px;
         color: black;
-        font-size: 10px;
+        
     }
     .nav-item a{
-        background-color: aquamarine;
+        background-color: beige;
     }
   
  .row2 .main{
@@ -223,18 +240,28 @@ margin-top: -370px;
 
  .packages{
     display: block;
-   margin: opx 5px 0px 5px;
+  margin-left: 15px;
     
 }
 .img2 p{
     text-align: center;
 }
 .btn{
+    margin-left: 35px;
+}
+.btn2{
     margin-left: 150px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
 }
 .btn1{
-    margin-left: 120px;
+    margin-left: 150px;
+    font-size: 11px;
+   margin-top: -130px;
 }
+
 
 .row6{margin-top: 0px;}
 .row5{margin-top: -20px;}
@@ -244,7 +271,9 @@ margin-top: -370px;
     margin-top: 1750px;
 }
 .carousel-inner{
-    margin-top: -1800px;
+    margin-top: -1780px;
+    margin-left: 17px;
+    width: 370px;
 }
  .fest{
     margin-top: 10px;
@@ -269,6 +298,13 @@ iframe{
 .features .img4{
     margin-left: -70px;
 }
+.features .learn{
+margin-left: 90px;
+}
+.customer .img5 img{
+    margin-top: -0px;
+}
+
 
 
 
@@ -307,6 +343,9 @@ iframe{
     justify-content: space-evenly;
     align-items: center;
 }
+.row5 .name1{
+
+}
 .row6 li{
     margin-left: 120px;
     margin-top: 0px;
@@ -316,11 +355,201 @@ iframe{
 }
 .icon{
     display: inline;
-    margin-left: 40px;
+    margin-left: 35px;
     margin-top: 80px;
     height: 90px;
+    
+}
+.row6{
+   width: 400px;
 }
 
+} 
+
+
+@media (max-width:500px){
+    .hero .img1{
+        width: 450px;
+    }
+
+    .hero .hero-content{
+        color: black;
+        margin-top: -50px;
+        
+       
+    }
+    .hero .head1{
+        
+        margin-top: -120px;
+        font-size: 9px;
+        display: none;
+    }
+
+    .hero .head2{
+        font-size: 9px;
+        display: none;
+    }
+
+    .hero .head3{
+        font-size: 9px;
+        display: none;
+    }
+    .hero .head4{
+        font-size: 9px;
+        display: none;
+    }
+
+    .btn{
+        font-size: 8px;
+        margin-left: 60px;
+      
+    }
+    .nav{
+        margin-top: -230px;
+        color: black;
+        margin-left: 20px;
+        
+        
+    }
+    .nav-item a{
+        background-color: beige;
+        justify-content: center;
+    }
+  
+ .row2 .main{
+    margin-top: -510px;
+ }
+
+ .packages{
+    display: block;
+  margin-left: 35px;
+    
+}
+.img2 p{
+    text-align: center;
+}
+.btn{
+    margin-left: 35px;
+}
+.btn2{
+    margin-left: 150px;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.btn1{
+    margin-left: 170px;
+    font-size: 11px;
+   margin-top: -130px;
+}
+
+
+.row6{margin-top: 0px;}
+.row5{margin-top: -20px;}
+.row4{margin-top: -50px;}
+.row3{margin-top: -20px;}
+.slide{
+    margin-top: 1750px;
+}
+.carousel-inner{
+    margin-top: -1780px;
+    margin-left: 44px;
+    width: 370px;
+}
+ .fest{
+    margin-top: 10px;
+    width: 447px;
+   
+}
+iframe{
+    width: 447px;
+    margin-left: 0px;
+   
+}
+.tours {
+    display: block;
+    margin-left: 35px;
+    
+}
+.tours .img3{
+    margin-bottom: 20px;
+}
+.features{
+    display: block;
+    margin-left: 135px;
+}
+.features .img4{
+    margin-left: -70px;
+}
+.features h3{
+    margin-left: -50px;
+}
+.customer .img5 img{
+    margin-top: -0px;
+    margin-left: 70px;
+}
+
+
+
+
+   
+
+.customer .img6 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+.customer .img7 img{
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+
+
+.para2{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.para3{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.para1{
+    margin-left: 70px;
+}
+.iconcollection{
+
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row6 li{
+    margin-left: 180px;
+    margin-top: 0px;
+}
+.row6 h2{
+    margin-left: 180px;
+}
+.icon{
+    display: inline;
+    margin-left: 50px;
+    margin-top: 80px;
+    height: 90px;
+    
+}
+.row6{
+   width: 450px;
+}
+   
+        
 } 
  
         
